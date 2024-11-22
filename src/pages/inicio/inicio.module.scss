@@ -1,0 +1,17 @@
+.primeiraSessao{
+    border: solid red  ;
+    height: 80vh;
+    width: 100%;
+    background-image: url(../../assets/Banner.png);
+    background-size: cover;
+    background-repeat: none;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+
+
+    h2{color: white;
+        font-size: 20px;
+        width: 20%;
+        }
+}

@@ -1,0 +1,63 @@
+header{
+    background: linear-gradient(90deg, #001B2F 0%, #005695 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 17vh;
+}
+.logoHeader{
+    display: flex;
+    align-items: center;
+    width: 25%;
+    justify-content: space-around;
+    
+}
+
+h1{
+    color: #fff;
+    font-size: 30px;
+}
+
+.navHeader{
+       
+        width: 30%;
+       ul{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+       }
+       .link{
+        text-decoration: none;
+        color: #fff;
+       }
+}
+
+.barradeBusca{
+    border: solid #fff;
+    border-radius: 20px;
+    margin-right: 1%;
+    width: 20%;
+    height: 6vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    input {
+        background-color: transparent;
+        border: none;
+        width: 60%;
+        height: 5vh;
+    
+        &::placeholder {
+            
+            width: 100%;
+          color: #fff;
+          font-size: 15px;
+        }
+      }
+      button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+      }
+}
