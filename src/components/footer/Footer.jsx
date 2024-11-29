@@ -23,6 +23,10 @@ export default function Footer(){
 
           </section>
 
+          <section className={s.copyRight}>
+            <p>Layout desenvolvido pela Vai Na Web para fins educativos - 2024  </p>
+          </section>
+
         </footer>
     )
 }
