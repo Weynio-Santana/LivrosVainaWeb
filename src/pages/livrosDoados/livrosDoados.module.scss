@@ -31,3 +31,25 @@
         }
     }
 }
+
+@media (max-width:780px){
+
+    .CardsLivrosDoados{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+        section{
+            width: 55%;
+            
+            div{ 
+                display: flex;
+                font-size: 20px;
+                justify-content: space-around;
+                flex-direction: column;
+                height: 15vh;
+            }
+        }
+
+    }
+}

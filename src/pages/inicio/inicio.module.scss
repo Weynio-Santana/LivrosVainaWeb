@@ -52,3 +52,47 @@
     
     
     }
+    
+    @media (max-width:780px){
+
+        .primeiraSessao{
+          
+            background-position: center;
+            height: 50vh;
+                        h2{ 
+                            width: 85%;
+                            font-size: 30px;
+                            text-align: center;
+                        }
+                     }
+        
+       .porqueDevoDoar {
+
+                height: 130vh;
+            
+                h2{
+                    font-size: 35px;
+                    text-align: center;
+                }
+       }            
+
+       .containerCards{
+          height: 115vh;
+          flex-direction: column;
+          align-items: center;
+
+          section{
+            width: 65%;
+            height: 25vh;
+               p{
+                font-size: 20px;
+               }
+
+               img{
+                width: 20%;
+               }
+          }
+       }
+
+
+    }
