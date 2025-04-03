@@ -1,5 +1,5 @@
 .LivrosDoados{
-    height: 85vh;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,24 +7,35 @@
 
     h2{   
         font-size: 32px;
+        margin-top: 2rem;
+        height: 10vh;
+        
     }
 }
 
 .CardsLivrosDoados{
     width: 95%;
-    height: 75vh;
-
-
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    gap: 2rem;
     section{
 
         border: solid 3px #005695;
         border-radius: 20px;
-        width: 20%;
-        height: 45vh;
+        width: 30%;
+        height: 52vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
+
+        img{
+            width: 10vw;
+        }
+
 
         div{
             text-align: center;
@@ -40,11 +51,15 @@
      align-items: center;
     
         section{
-            width: 55%;
-            
+            width: 65%;
+            font-size: 20px;
+            img{
+                width: 20vw;
+            }
+
             div{ 
                 display: flex;
-                font-size: 20px;
+                font-size: 30px;
                 justify-content: space-around;
                 flex-direction: column;
                 height: 15vh;
